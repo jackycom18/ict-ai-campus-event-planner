@@ -1,0 +1,13 @@
+{
+  "name": "campus-event-planner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/plan-data.test.mjs tests/build-html.test.mjs tests/validate-outputs.test.mjs",
+    "build:html": "node scripts/build-html.mjs",
+    "build:workbooks": "node scripts/build-workbooks.mjs",
+    "build:deck": "node scripts/build-deck.mjs",
+    "archive": "node scripts/archive_work.mjs"
+  }
+}

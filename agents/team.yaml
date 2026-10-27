@@ -1,0 +1,30 @@
+name: AI校园活动策划天团
+leader:
+  role: Leader
+  responsibility: 拆解任务、检查依赖、合并结果并阻止未经验证的结论
+  final_gate:
+    - 四个专业 Agent 均完成
+    - 预算没有超过上限
+    - 风险均有责任人和预案
+    - 六类最终文件齐全
+members:
+  - id: event-strategist
+    name: 策划分析师
+    skill: agents/skills/event-strategist/SKILL.md
+    output: 活动流程、赛制与人员配置
+  - id: budget-analyst
+    name: 预算分析师
+    skill: agents/skills/budget-analyst/SKILL.md
+    output: 预算测算结果
+  - id: risk-officer
+    name: 风险管理员
+    skill: agents/skills/risk-officer/SKILL.md
+    output: 风险分级与响应预案
+  - id: promo-writer
+    name: 宣传文案师
+    skill: agents/skills/promo-writer/SKILL.md
+    output: 主题、文案与传播节奏
+  - id: document-designer
+    name: 文档设计师
+    skill: agents/skills/document-designer/SKILL.md
+    output: HTML、XLSX、PPTX 和归档

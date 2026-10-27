@@ -1,0 +1,18 @@
+{
+  "name": "计算机学院2026级篮球迎新杯",
+  "organizer": "计算机学院学生会",
+  "date": "2026-11-14",
+  "startTime": "09:00",
+  "endTime": "17:30",
+  "venue": "深圳技术大学南区篮球场",
+  "teamCount": 8,
+  "participantCount": 120,
+  "playersPerTeam": 10,
+  "budgetCap": 30000,
+  "theme": "篮下开场",
+  "goals": [
+    "帮助新生快速建立班级与学院归属感",
+    "通过低门槛赛事促进跨班交流",
+    "展示计算机学院学生的组织与协作能力"
+  ]
+}
